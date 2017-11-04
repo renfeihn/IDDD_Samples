@@ -106,7 +106,8 @@ Twitter: @VaughnVernon
 http://vaughnvernon.co/
 
 
-
+中文说明
+------------------
 IDDD由四个子项目组成：
 
 1.iddd_agilepm 项目是一个以LevelDB这样key-value存储作为持久层的案例，

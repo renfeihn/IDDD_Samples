@@ -27,10 +27,13 @@ public class ForumStarted implements DomainEvent {
     private String description;
     private int eventVersion;
     private String exclusiveOwner;
+    // 论坛ID
     private ForumId forumId;
+    // 主席？
     private Moderator moderator;
     private Date occurredOn;
     private String subject;
+    // 承租人
     private Tenant tenant;
 
     public ForumStarted(

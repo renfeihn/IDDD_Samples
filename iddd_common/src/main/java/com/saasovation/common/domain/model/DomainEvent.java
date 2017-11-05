@@ -16,6 +16,9 @@ package com.saasovation.common.domain.model;
 
 import java.util.Date;
 
+/**
+ * 领域事件
+ */
 public interface DomainEvent {
 
     public int eventVersion();

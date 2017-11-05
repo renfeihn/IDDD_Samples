@@ -14,6 +14,9 @@
 
 package com.saasovation.collaboration.domain.model.collaborator;
 
+/**
+ * 主席？
+ */
 public final class Moderator extends Collaborator {
 
     private static final long serialVersionUID = 1L;

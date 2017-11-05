@@ -23,6 +23,9 @@ import com.saasovation.collaboration.domain.model.tenant.Tenant;
 import com.saasovation.common.domain.model.DomainEvent;
 import com.saasovation.common.domain.model.EventSourcedRootEntity;
 
+/**
+ * 论坛对象
+ */
 public class Forum extends EventSourcedRootEntity {
 
     private boolean closed;

@@ -475,9 +475,13 @@ public abstract class ApplicationTest extends TestCase {
         return new TimeSpan(cal1.getTime(), cal2.getTime());
     }
 
+    /**
+     * 功能说明：测试执行前执行
+     * @throws Exception
+     */
     protected void setUp() throws Exception {
 
-        System.out.println(">>>>>>>>>>>>>>>>>>>> " + this.getName());
+        System.out.println("开始执行测试： " + this.getName());
 
         DomainEventPublisher.instance().reset();
 
@@ -522,13 +526,17 @@ public abstract class ApplicationTest extends TestCase {
         super.setUp();
     }
 
+    /**
+     * 功能说明：测试执行结束，执行
+     * @throws Exception
+     */
     protected void tearDown() throws Exception {
 
         storageCleaner.clean();
 
         ConnectionProvider.closeConnection();
 
-        System.out.println("<<<<<<<<<<<<<<<<<<<< (done)");
+        System.out.println("测试用例执行结束！");
 
         super.tearDown();
     }

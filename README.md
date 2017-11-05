@@ -19,24 +19,24 @@
 >4.iddd_common 项目提供许多可重用组件，虽然并不试图成为一个框架，但是能提高代码重用
 
 
-#### 如何编译IDDD_Samples_by_laungcisin项目：
+#### 如何编译IDDD_Samples项目：
 >1.安装RabbitMQ；
     http://www.cnblogs.com/junrong624/p/4121656.html
 
 >2.启动RabbitMQ；
 
->3.将IDDD_Samples_by_laungcisin\iddd_collaboration\src\main\mysql\collaboration.sql导入数据库；
+>3.将IDDD_Samples\iddd_collaboration\src\main\mysql\collaboration.sql导入数据库；
 
->4.将IDDD_Samples_by_laungcisin\iddd_common\src\main\mysql\common.sql导入数据库；
-  将IDDD_Samples_by_laungcisin\iddd_common\src\main\mysql\test_common.sql导入数据库；
+>4.将IDDD_Samples\iddd_common\src\main\mysql\common.sql导入数据库；
+  将IDDD_Samples\iddd_common\src\main\mysql\test_common.sql导入数据库；
 
->5.将IDDD_Samples_by_laungcisin\iddd_identityaccess\src\main\mysql\iam.sql导入数据库；
+>5.将IDDD_Samples\iddd_identityaccess\src\main\mysql\iam.sql导入数据库；
 
->6.修改IDDD_Samples_by_laungcisin\iddd_collaboration\src\main\resources\applicationContext-collaboration.xml
+>6.修改IDDD_Samples\iddd_collaboration\src\main\resources\applicationContext-collaboration.xml
 中数据库相关配置；
 
->7.修改IDDD_Samples_by_laungcisin\iddd_common\src\main\resources\applicationContext-common.xml和
-      IDDD_Samples_by_laungcisin\iddd_common\src\main\resources\hibernate.cfg.xml中数据库相关配置；
+>7.修改IDDD_Samples\iddd_common\src\main\resources\applicationContext-common.xml和
+      IDDD_Samples\iddd_common\src\main\resources\hibernate.cfg.xml中数据库相关配置；
 
->8.修改IDDD_Samples_by_laungcisin\iddd_identityaccess\src\main\resources\hibernate.cfg.xml中数据库相关配置；
+>8.修改IDDD_Samples\iddd_identityaccess\src\main\resources\hibernate.cfg.xml中数据库相关配置；
 

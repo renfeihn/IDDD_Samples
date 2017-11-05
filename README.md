@@ -3,7 +3,7 @@
 #### IDDD由四个子项目组成：
 
 >1.iddd_agilepm 项目是一个以LevelDB这样key-value存储作为持久层的案例，
-    LevelDB 是一个纯Java实现: https://github.com/dain/leveldb
+    LevelDB 是一个纯Java实现: https://github.com/renfeihn/leveldb
     iddd_agilepm并没有使用任何容器(such as Spring).
 
 >2.iddd_collaboration项目是一个使用 Event Sourcing 和
